@@ -3,6 +3,8 @@ import MainNavigation from '../../components/Home Page/mainNavigation'
 import NewsFeed from "../../components/Home Page/NewsFeed";
 import HPLeftSideBar from "../../components/Home Page/HPleftSideBar"
 import HPleftSide from "../../components/Home Page/HPleftSideBar";
+import SettingsMain from "../../components/Home Page/SettingsMain";
+
 export default function Settings() {
     return (
 
@@ -15,7 +17,7 @@ export default function Settings() {
 
                 {/* MAIN CONTENT AREA */}
                 <div className={gameStyles.mainContent}>
-                <NewsFeed />
+                <SettingsMain />
                 </div>
 
             </div>

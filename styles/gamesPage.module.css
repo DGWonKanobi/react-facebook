@@ -5,7 +5,7 @@
 }
 
 .sideBar {
-    max-width: 300px;
+    max-width: 250px;
     background-color: white;
 }
 
@@ -69,3 +69,36 @@
     border-radius: 5px;
     max-width: 250px;
 }
+
+.yourgames__title{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px 0px 10px;
+}
+.divider{
+    height: 4px;
+    width: 200px;
+    background-color:#555;
+}
+
+.game__types span, 
+.saveGames span,
+.playDiv span {
+    padding: 10px;
+}
+
+.saveGames,
+.playDiv{
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #969696;
+}
+
+.h4,
+.yourGames p{
+    padding: 10px;
+}
+
+/* .playDiv{
+    border-bottom: 1px solid #969696;
+} */

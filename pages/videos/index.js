@@ -1,8 +1,8 @@
-import gameStyles from "../../styles/gamesPage.module.css"
-import MainNavigation from "../../components/Home Page/mainNavigation"
-import NewsFeed from "../../components/Home Page/NewsFeed";
-import HPLeftSideBar from "../../components/Home Page/HPleftSideBar"
-import HPleftSide from "../../components/Home Page/HPleftSideBar";
+import gameStyles from "../../styles/gamesPage.module.css";
+import MainNavigation from "../../components/Home Page/mainNavigation";
+// import NewsFeed from "../../components/HomePage/NewsFeed";
+import HPLeftSideBar from "../../components/Home Page/HPleftSideBar";
+import VideoCard from "../../components/Home Page/videoCard";
 export default function Videos() {
     return (
 
@@ -10,12 +10,12 @@ export default function Videos() {
             <MainNavigation />
             <div className={gameStyles.gameWrapper}>
                 <div className={gameStyles.sideBar}>side bar
-                    <HPleftSide />
-                    </div>
+                <HPLeftSideBar/>
+                </div>
 
                 {/* MAIN CONTENT AREA */}
                 <div className={gameStyles.mainContent}>
-                <NewsFeed />
+                <VideoCard />
                 </div>
 
             </div>
